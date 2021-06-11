@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 3800px;
+}
+
+
+.wrapper{
+    margin-top: 100px;
+    margin-left: 70px;
+    width: 500px;
+    border: 1px solid rgba(77, 77, 77, 0.904);
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    color: rgba(255, 255, 255, 0.616);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    -webkit-box-shadow: 6px 10px 21px 10px rgba(66,64,66,1);
+    -moz-box-shadow: 6px 10px 21px 10px rgba(66,64,66,1);
+    box-shadow: 6px 10px 21px 10px rgba(66,64,66,1);
+}
+
+button:focus {outline:0;}
+
+
+
+
+
+/* ///////// ELEVATOR A //////////// */
+
+.display_A{
+    width: 200px;
+    height: 200px;
+    border: 1px solid  rgba(87, 86, 86, 0.9);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: monospace;
+    
+}
+
+.numbers_A{
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 110px;
+
+}
+
+.button_A{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.choosingfloor_A{
+    border-radius: 7px;
+    align-self: center;
+    padding: 5px;
+}
+
+
+.currFloor_A{
+    font-family: monospace;
+    font-size: 40px;
+    color: rgba(206, 204, 204, 0.9);
+}
+
+.resetBTN_A{
+    padding: 3px;
+    border-radius: 7px;
+    color: rgb(37, 153, 37);
+    border: solid rgb(37, 153, 37);
+}
+
+#sos_A{
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(196, 23, 23);
+    border: 2px solid rgb(196, 23, 23);
+    background-color:rgba(173, 135, 135, 0.774);
+    border-radius: 10px;
+    margin-top: 550px;
+    margin-left: 30px;
+    display:flex;
+    z-index: 1000;
+    position:fixed;
+    transition: transform .2s;
+    transform: translateZ(0);
+   
+}
+
+#sos_A:hover{
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////////////// ELEVATOR B ////////////////// */
+
+#elevatorB{
+    margin-top: 303px;
+}
+
+.display_B{
+    width: 200px;
+    height: 200px;
+    border: 1px solid  rgb(77, 77, 77,0.900);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: monospace;
+    
+}
+
+.numbers_B{
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 110px;
+
+}
+
+.button_B{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.choosingfloor_B{
+    border-radius: 7px;
+    align-self: center;
+    padding: 5px;
+}
+
+
+.currFloor_B{
+    font-family: monospace;
+    font-size: 40px;
+    color: rgba(206, 204, 204, 0.9);
+}
+
+.resetBTN_B{
+    padding: 3px;
+    border-radius: 7px;
+    color: rgb(37, 153, 37);
+    border: solid rgb(37, 153, 37);
+}
+
+#sos_B{
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(196, 23, 23);
+    border: 2px solid rgb(196, 23, 23);
+    background-color:rgba(173, 135, 135, 0.774);
+    border-radius: 10px;
+    margin-top: 245px;
+    margin-left: 500px;
+    display:flex;
+    z-index: 9999;
+    position:fixed;
+    transition: transform .2s;
+    transform: translateZ(0);
+   
+}
+
+#sos_B:hover{
+    transform: scale(1.3);
+}
