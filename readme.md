@@ -1,6 +1,12 @@
 
 **BRAIN OF THE ELEVATORS - PROJECT 3 (Pirple course (Keeping Up With the Javascripts: ES6)**
 
+![elevator1](https://user-images.githubusercontent.com/85742865/133165794-869d5914-a0a2-42a3-8485-d6c279f28b35.png)
+
+Doors are opened:
+![elevator2](https://user-images.githubusercontent.com/85742865/133165797-b00a989e-0fca-42c4-a74c-92104dd127e5.png)
+
+
 -Code is a bit messy because I wanted to make it look like a real building (from the top to the bottom floors are 10,9,8,7... and it made things confusing),but there are a lot of comments.
 
 -Explanation:
